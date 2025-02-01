@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rumi Event Space - Technical Rider</title>
+    <style>
+        :root {
+            --dark-bg: #1a1a1a;
+            --maroon: #800000;
+            --light-maroon: #a04545;
+            --white: #ffffff;
+            --gray: #cccccc;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: var(--dark-bg);
+            color: var(--white);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        header {
+            text-align: center;
+            padding: 3rem 0;
+            border-bottom: 3px solid var(--maroon);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: var(--maroon);
+            margin-bottom: 0.5rem;
+        }
+
+        h2 {
+            color: var(--light-maroon);
+            border-left: 4px solid var(--maroon);
+            padding-left: 1rem;
+            margin: 2rem 0;
+        }
+
+        .section {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 2rem;
+            border-radius: 8px;
+            margin: 2rem 0;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+
+        .spec-card {
+            background: #2a2a2a;
+            padding: 1.5rem;
+            border-radius: 6px;
+            border: 1px solid var(--maroon);
+        }
+
+        a {
+            color: var(--light-maroon);
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: var(--maroon);
+            text-decoration: underline;
+        }
+
+        .download-btn {
+            display: inline-block;
+            background: var(--maroon);
+            color: var(--white);
+            padding: 1rem 2rem;
+            border-radius: 4px;
+            margin: 1rem 0;
+            transition: background 0.3s ease;
+        }
+
+        .download-btn:hover {
+            background: var(--light-maroon);
+        }
+
+        .contact-card {
+            background: #2a2a2a;
+            padding: 1.5rem;
+            border-radius: 6px;
+            margin: 1rem 0;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 1rem;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Rumi Event Space</h1>
+        <h3>TECHNICAL RIDER</h3>
+    </header>
+
+    <div class="container">
+        <!-- Visual Display Section -->
+        <section class="section">
+            <h2>Visual Display Specifications</h2>
+            <div class="grid">
+                <div class="spec-card">
+                    <h3>LED Walls</h3>
+                    <p>Pixel Pitch: P2.9 / P3.9</p>
+                    <ul>
+                        <li>Upstage Wall: 1280x384</li>
+                        <li>DJ Wall: 1408x256</li>
+                        <li>Overhead Wall: 5040x1008</li>
+                        <li>6 Side Columns: 128x768</li>
+                    </ul>
+                </div>
+
+                <div class="spec-card">
+                    <h3>Software & Playback</h3>
+                    <ul>
+                        <li>Resolume Arena 7</li>
+                        <li>vMix</li>
+                        <li>APC40 MK2/APC Mini</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Lighting Section -->
+        <section class="section">
+            <h2>Lighting Specifications</h2>
+            <div class="grid">
+                <div class="spec-card">
+                    <h3>Control Systems</h3>
+                    <ul>
+                        <li>GrandMA2 On PC Command Wing</li>
+                        <li>GrandMA2 On PC Fader Wing</li>
+                        <li>Cybernet Solid State PC</li>
+                    </ul>
+                </div>
+
+                <div class="spec-card">
+                    <h3>Fixtures</h3>
+                    <ul>
+                        <li>580 Beams (16x)</li>
+                        <li>Wash Moving Head (6x)</li>
+                        <li>Pixel Strobe (6x)</li>
+                        <li>Elation Proton 3K (8x)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sound Section -->
+        <section class="section">
+            <h2>Sound System</h2>
+            <div class="grid">
+                <div class="spec-card">
+                    <h3>DJ Equipment</h3>
+                    <ul>
+                        <li>Pioneer DJM 900 Nexus2</li>
+                        <li>CDJ-2000NXS2 (2x)</li>
+                        <li>CDJ-3000 (2x)</li>
+                        <li>Allen & Heath SQ-5</li>
+                    </ul>
+                </div>
+
+                <div class="spec-card">
+                    <h3>Speakers</h3>
+                    <ul>
+                        <li>Funktion One PSM 318L/H</li>
+                        <li>FFA Amplifiers</li>
+                        <li>BSS BLU-160 System</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Downloads Section -->
+        <section class="section">
+            <h2>Downloads</h2>
+            <a href="https://drive.google.com/file/d/1rtlA900oOl4_BYz8JqgpwnMOHKzmPULv/view?usp=drive_link" class="download-btn" download>
+                Download Full Technical Rider (PDF)
+            </a>
+            <br>
+            <a href="https://drive.google.com/drive/folders/1D78JHAAo-QxqgxAX8YVouNK-G9SbxWqa" 
+               class="download-btn" target="_blank">
+                Access LED Wall Specifications
+            </a>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section">
+            <h2>Contact</h2>
+            <div class="grid">
+                <div class="contact-card">
+                    <h3>Event Director</h3>
+                    <p>Kalynn Dong</p>
+                    <p>📞 <a href="tel:9082958985">908.295.8985</a></p>
+                    <p>📧 <a href="mailto:kalynn@rumieventspace.com">kalynn@rumieventspace.com</a></p>
+                </div>
+
+                <div class="contact-card">
+                    <h3>Technical Director</h3>
+                    <p>George Abhilash</p>
+                    <p>📞 <a href="tel:9177559518">917.755.9518</a></p>
+                    <p>📧 <a href="mailto:george@rumieventspace.com">george@rumieventspace.com</a></p>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
